@@ -1,0 +1,137 @@
+.parallax {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bild1{
+    background-image: url("../bilder/webb.jpg");
+}
+
+#bild2{
+    background-image: url("../bilder/tor.jpg");
+}
+#bild3{
+    background-image: url("../bilder/torre.jpg");
+}
+
+
+
+.scroll-box{
+  height:100px;
+  width: auto;
+  background-color: #5ca9d2;
+  display: block;
+}
+
+#parall{
+  color:white;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: 'Alex Brush', cursive;
+}
+
+.whitebox {
+    position: absolute;
+    top:  700px;
+    background: rgba(255,255,255,0.7);
+    margin-left:23%;
+    transform: translateX(-15%);
+    padding: 30px;
+    border: 0px solid #e71b2d;
+}
+
+.whitebox1 {
+    position: absolute;
+    top: 1400px;
+    background: rgba(255,255,255,0.7);
+    margin-left:23%;
+    transform: translateX(-15%);
+    padding: 30px;
+    border: 0px solid #e71b2d;
+}
+
+
+h3, h4, h1{
+text-align: center;
+font-family: 'Alex Brush', cursive;
+}
+
+.skrol{
+  height :400px;
+  overflow:scroll;
+  border:1px solid #ddd;
+}
+
+
+
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+    color: white;
+  }
+
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+
+a{
+  color: white;
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+
+ .row {
+  color: #000000;
+ }
+
+ #komentarssida{
+    background-image: url("../bilder/hav.jpg");
+ }
+
+ .komkomentarer{
+  color: #ffffff
+ }

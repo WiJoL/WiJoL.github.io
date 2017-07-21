@@ -1,0 +1,170 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+  <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+  <link rel="shortcut icon" type="image/png" href="bilder/logga.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Koppla in Bootstrap css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+  <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+  <!-- Koppla in och JQuery Bootstrap javascript -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- Angular -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+
+  <!-- AngularFire -->
+  <script src="https://cdn.firebase.com/libs/angularfire/2.2.0/angularfire.min.js"></script>
+
+  <script type="text/javascript" src="js/funktion.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+  <title>JoLiWidell äventyrs blogg</title>
+</head>
+<body>
+
+
+
+  <div class="parallax" id="bild1">
+
+
+    <div class="row">
+      <div class="col-sm-3">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Sök på inlägg">
+        <div class= "skrol">
+          <table id="myTable">
+            <tr class="header">
+              <th style="width:60%;">Inlägg</th>
+            </tr>
+            <tr>
+              <td><a href="kommentarer.html">Komentarer</a></td>
+            </tr>
+            <tr>
+              <td><a href="#bild2">Ekerö Runt</a></td>
+            </tr>
+            <tr>
+              <td><a href="#bild3">Egen Guide</a></td>
+            </tr>
+            <tr>
+              <td><a href="#bild">Åker Till Spanien</a></td>
+            </tr>
+            <tr>
+              <td>I Spanien
+              </td>
+            </tr> 
+            <tr>
+              <td> Bad
+              </td>
+            </tr>
+            <tr>
+              <td>Sol och glass på västkusten</td>
+            </tr>
+            <tr>
+              <td>Sol och glass på västkusten</td>
+            </tr>
+            <tr>
+              <td>Sol och glass på västkusten</td>
+            </tr>
+            <tr>
+              <td>Sol och glass på västkusten</td>
+            </tr>
+            <tr>
+              <td>Sol och glass på västkusten</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="caption">
+      <span class="border">JoLiWidell ÄventyrsBlogg
+      </span>
+    </div>
+  </div>
+  <div class="scroll-box">
+    <p id="parall">Det här är våra egen tagna bilder.</p>
+  </div>
+
+
+
+
+  <div class="parallax" id="bild2">
+    <div class="whitebox">
+      <h3>EKERÖ RUNT</h3>
+      <h4>27 MAJ</h4>
+      <p>Lördag, högsommar och ut på cykel igen.
+
+        <p>Lite bättre förberedda idag, cykelgenomgången gjorde vi i veckan så nu räcker det att kolla däckstryck och äta frukost. Klockan nio var vi utanför porten och styrde mot Skärholmen. Det gick så snabbt och lätt att tjejerna såg det som självklart att vi skule fortsätta.
+       Mitt lokalsinne är långt ifrån lika bra som vissa andra familjemedlemmars, vilket gjorde att vi fick en bra titt på bostadsområden i Vårber innan vi kom till Vårby och Slagsta. Vi fick öva på hur knasigt det blir om man kör med slicks i grus och lera istället för fina släta asfalterade vägar ;)
+
+        I väntan på färjan passade barnen på att tugga i sig lite nötter föt att hålla energin uppe, och dricka en klunk vatten medan vi står på backen. Att dricka under färd är en avancerad kurs som det kommer dröja innan de får gå :)</p>
+
+       <p> Väl över på Ekerö fick vi en lite långsam start med en feg ledare som gärna lutar dig mot att hon tagit till sig att vi är 20 meter långa och inte tillräckligt snabba i omkörning för att bråka oss om "söndagscyklistern".
+       Fredrik hade genomgång med tjejerna om hur man följer en av många regler i cykling, den att bockstyren hälsar på bockstyren. För mig som har rakt styre blev det lite otacksamt, jag hälsade snällt på alla vi mötte, men ingen hälsa på mig. Fredrik påstår att allal hälsa på honom och då tänker jag att det ju måste vara för att de såg min hälsning och återgäldade den lagom som de kom i höjd med honom.... :D</p>
+
+        <p>Vi fick vår första olycka. Jag som låg först var för sen med att stanna till vid ett övergångställe vilket gjorde att tjejerna inte hann med så de körde ihop. Allt gick bra, ingen blodvite men lite smutsränder och en broms som behövde rättas till. Vi har mycket att lära och jobba in rutiner på.
+
+       Cykelvägen på Ekerö är riktigt bra, delar av etappen går på gamla landsvägen vilket gör den bred och fin. Vi trampade på i bra tempo, några etapper var vi upp i 22-25 km/timme, en av nerförbackarna nästen 40 km/timme. Vi tog en vätskepaus och beslutade oss för glass på Brostugan.</p>
+
+        <p>Sista etappen gick via Brommaplan, Stora mossen, Alvik, Stora Essingen och Gröndal till Blommensbergsbacken. Där kom trötthet och misstag på löpande band :( Tempotapp, en ny hopkörning av tjejerna och slut på energi och tålamod = en promenad upp för backen för tre av fyra. Det är bara att bita ihop, hem ska både vi och cyklar. Dagens etapp 38 km.
+
+        Halv ett var vi tillbaka och kunde konstatera att om man kommer iväg på morgonen så hinner man cykal nästan fyta mil och ha hela dagen kvar till att göra annat. Som cykelvård ute i sommarvärmen, följt av bad nere vid båtklubben och en grillning till middag.</p>
+      </div>
+    </div>
+
+    <div class="scroll-box">
+      <p id="parall">Det här är våra egen tagna bilder.</p>
+    </div>
+
+
+
+
+    <div class="parallax" id="bild3"> 
+      <div class="whitebox1">
+        <h3>EGEN GUIDE</h3>
+        <h4>6 FEBRUARI</h4>
+        <p>
+          Väderprognosen för idag visar på sol och +8C nere i byn, vilket borde betyda lite kallare uppe på berget. Vi ska göra ett nytt försök att åka på pistvisning idag och behöver vara uppe i backen till 9:30.
+
+          Frukosten var god idag med. Fredrik har sovit gott och länge, jag känner mig som överkörd av en buss, men det är bara att bita ihop. Solen skiner 😊</p>
+
+         <p> Vi kom upp till mötesplatsen ca en kvart tidigt och precis som igår så var vi osäkra på om vi kommit rätt. Vi såg några andra resenärer från STS, men ingen av dem stannade där vi hade uppfattat att träffpunkten är. Med ett par minuter kvar till halv tio så kom guiden. Det blev bara vi = egen guide.
+
+          Pistade backar, sol och lite vind. Det blev en kanonförmiddag. Vi brottades båda med hjärnspöken efter gårdagen, Fredrik kom över sina lite snabbare än jag. För mig kändes det som att jag aldrig åkt något annat en än pulkabacke tidigare och allt här var övermäktigt. Fick kämpa på för att få ihop skidorna, böja på knäna och dessutom försöka luta mig framåt i pjäxorna. Vi åkte en längre sträcka före lunch idag än vi gjorde på hela dagen igår.</p>
+
+         <p> Vi fick se toppen av Monte Bianco i solsken mellan molnslöjor, mäktigt! Det var lite folk i backarna idag, vilket var skönt. Såg inte en ända liftkö på hela dagen, men ett helt gäng med åkare som var ute och körde off pist i sol och ”orörda” backar.
+
+         Lunchen åt vi på restaurang Alpetta, vilken drivs av en rockälskande italienare som varit på över 400 konserter. Det dunkade bra i högtalarna 😊 Lasange och carbonara satt fint för trötta muskler.
+
+          Efter lunch åkte vi tillbaka till en del av systemet som hade breda glidarpister med partier som lutade på ordentligt. Vid tvåtiden gav vi upp för idag och tog oss till after ski stället med stort A uppe i backen. Gassande sol, en Cuba Libre och housemusik som dånade ur högtalarna. Perfekt sätt att slappna av och fördriva lite tid på.</p>
+
+        <p>  Vi diskuterade om vi skulle åka ner till dalen eller ta linbanan. Åket är 500 höjdmeter i serpentinväg, inte rätt dag för trötta möra lår som behöver samla kraft inför morgondagens utflykt. Väl nere vid liftstationen så var hissen trasig så vi fick snällt knata sju trappor ner med full skidutrustning, en erfarenhet rikare är väl allt man kan säga om det.
+
+          STS körde after ski på Bar Roma. Det vara lite kul att se att det var fler än vi som var lite möra och lyssna på de andras upplevelser och äventyr. När vi suttit av tiden en bra stund och det fortfarande var nästan en och en halv timme kvar till middag bestämde vi oss för en pizza på rummet, smörja in knän och lår med Linex och somna framför en film.
+
+         Jag lyckades hitta en pizzeria där personalen inte pratade engelska och med språkförbistringar och teckenspråk blir det inte alltid som man tänkt sig, men det blev lagom för en tidig kväll.
+          Nu är klockan åtta och dagens inlägg är skrivet, nu blir det sova och samla krafter inför imorgon</p>
+        </div>
+      </div>
+
+      <div class="scroll-box">
+        <p id="parall">Det här är våra egen tagna bilder.</p>
+      </div>
+
+
+    </body>
+    </html>
